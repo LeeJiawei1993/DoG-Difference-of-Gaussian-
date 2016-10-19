@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named sift
+# Target rules for targets named result
 
 # Build rule for target.
-sift: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sift
-.PHONY : sift
+result: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 result
+.PHONY : result
 
 # fast build rule for target.
-sift/fast:
-	$(MAKE) -f CMakeFiles/sift.dir/build.make CMakeFiles/sift.dir/build
-.PHONY : sift/fast
+result/fast:
+	$(MAKE) -f CMakeFiles/result.dir/build.make CMakeFiles/result.dir/build
+.PHONY : result/fast
 
-sift.o: sift.cpp.o
+main.o: main.cpp.o
 
-.PHONY : sift.o
+.PHONY : main.o
 
 # target to build an object file
-sift.cpp.o:
-	$(MAKE) -f CMakeFiles/sift.dir/build.make CMakeFiles/sift.dir/sift.cpp.o
-.PHONY : sift.cpp.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/result.dir/build.make CMakeFiles/result.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-sift.i: sift.cpp.i
+main.i: main.cpp.i
 
-.PHONY : sift.i
+.PHONY : main.i
 
 # target to preprocess a source file
-sift.cpp.i:
-	$(MAKE) -f CMakeFiles/sift.dir/build.make CMakeFiles/sift.dir/sift.cpp.i
-.PHONY : sift.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/result.dir/build.make CMakeFiles/result.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-sift.s: sift.cpp.s
+main.s: main.cpp.s
 
-.PHONY : sift.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-sift.cpp.s:
-	$(MAKE) -f CMakeFiles/sift.dir/build.make CMakeFiles/sift.dir/sift.cpp.s
-.PHONY : sift.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/result.dir/build.make CMakeFiles/result.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -158,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... sift"
-	@echo "... sift.o"
-	@echo "... sift.i"
-	@echo "... sift.s"
+	@echo "... result"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

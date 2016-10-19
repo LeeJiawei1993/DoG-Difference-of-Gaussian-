@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lijiawei/Programming/image process/角点检测/sift/sift.cpp" "/home/lijiawei/Programming/image process/角点检测/sift/CMakeFiles/sift.dir/sift.cpp.o"
+  "/home/lijiawei/Programming/image process/角点检测/sift/main.cpp" "/home/lijiawei/Programming/image process/角点检测/sift/CMakeFiles/result.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

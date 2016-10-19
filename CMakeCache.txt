@@ -114,7 +114,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=sift
+CMAKE_PROJECT_NAME:STATIC=result
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -169,10 +169,10 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 OpenCV_DIR:PATH=/usr/local/share/OpenCV
 
 //Value Computed by CMake
-sift_BINARY_DIR:STATIC=/home/lijiawei/Programming/image process/角点检测/sift
+result_BINARY_DIR:STATIC=/home/lijiawei/Programming/image process/角点检测/sift
 
 //Value Computed by CMake
-sift_SOURCE_DIR:STATIC=/home/lijiawei/Programming/image process/角点检测/sift
+result_SOURCE_DIR:STATIC=/home/lijiawei/Programming/image process/角点检测/sift
 
 
 ########################

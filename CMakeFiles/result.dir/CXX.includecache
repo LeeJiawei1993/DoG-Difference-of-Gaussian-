@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/lijiawei/Programming/image process/角点检测/sift/sift.cpp
+/home/lijiawei/Programming/image process/角点检测/sift/main.cpp
 opencv2/opencv.hpp
 -
 math.h
